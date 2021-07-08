@@ -1,0 +1,49 @@
+{
+  "name": "node-upinfo",
+  "version": "1.0.2",
+  "description": "node-upinfo",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "author": {
+    "name": "Frieda.Hu<657225485@qq.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/www778878net/node-upinfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/www778878net/node-upinfo/issues"
+  },
+  "homepage": "https://github.com/www778878net/node-upinfo#readme",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "node-upinfo",
+    "nodejs"
+  ],
+  "scripts": {
+    "postpublish": "git push origin --all && git push origin --tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bundledDependencies": false,
+  "devDependencies": {
+    "@types/node": "^14.17.3",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "nodejs-date78": "^1.0.5",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "node-date78": "^1.0.5"
+  }
+}
