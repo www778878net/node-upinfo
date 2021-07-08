@@ -1,6 +1,6 @@
 ﻿
 const Util = require('util');
-import 'nodejs-date78';
+import 'node-date78';
 
  
 export default class UpInfo {

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Util = require('util');
-require("nodejs-date78");
+require("node-date78");
 class UpInfo {
     constructor(ctx) {
         //一次配置后不变
