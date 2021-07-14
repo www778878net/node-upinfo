@@ -33,6 +33,8 @@
 >+ Update quickly: as its main operation projects, will update in time If there is a new bug or new function
 >+ 易重构:一个目录一个小系统 一个版本一个路径 新旧api可长期共存 边开车边换胎
 >+ Easy to refactor: one directory --one system, one path --one version -- old and new APIs can coexist for a long time. you can Changing tires while driving.
+>+ SAAS:同表不同权 完善权限控制 用户只能查询到自己或自己帐套的资料
+>+ SAAS:Users with different rights in the same table can only query their own data or their own account sets.
 
 >## 安装 install
 ```
